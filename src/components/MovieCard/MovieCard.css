@@ -1,0 +1,173 @@
+
+  
+  * {
+    -webkit-transition: 300ms;
+    transition: 300ms;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  h1, h2, h3, h4, h5, p {
+    font-weight: 400;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color: #6ABCEA;
+  }
+
+  .movie-card {
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    font-family: 'Arimo', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fcfcfc;
+    box-shadow: 0px 6px 18px rgba(255, 255, 255, 0.541);
+    width: 100%;
+    max-width: 315px;
+    margin: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    height: 530px;
+   
+  }
+  
+  .movie-header {
+    padding: 0;
+    margin: 0;
+    height: 367px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    height: 350px;
+  }
+
+  .header-icon-container {
+    position: relative;
+  }
+  .header-icon-lang{
+    position: absolute;
+    background-color: green;
+    width: 50px;
+    height: 30px;
+    top: 10px;
+    left: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-shadow: 0px 5px 20px #ffffff;
+  }
+  .header-icon-lang b{
+    text-transform: uppercase;
+    
+  }
+
+  .header-icon-rate {
+    position: absolute;
+    background-color: yellow;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: -25px;
+    right: -20px;
+    font-size: 15px;
+    
+    padding: 8px;
+    text-shadow: 0px 0px 20px #ffffff, 0px 5px 20px #ffffff;
+    box-shadow: 0px 5px 20px yellow;
+    color: #000000;
+  }
+  .header-icon-rate b , i{
+    padding-top: 13px;
+  }
+  
+
+  .movie-card:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    box-shadow: 0px 10px 25px rgb(238, 10, 10);
+  }
+  
+  .movie-content {
+    padding: 18px 18px 24px 18px;
+    margin: 0;
+    height: 160px;
+  }
+  
+  .movie-content-header, .movie-info {
+    display: table;
+    width: 100%;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+    /* display: table-cell; */
+  }
+  
+  .movie-content-header.row {
+    height: 15px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .movie-info {
+    margin-top: 1em;
+  }
+  
+  .info-section {
+    display: table-cell;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .info-section:first-of-type {
+    text-align: left;
+  }
+  
+  .info-section:last-of-type {
+    text-align: right;
+  }
+  
+  .info-section label {
+    display: block;
+    color: rgba(255, 255, 255, 0.699);
+    margin-bottom: 1em;
+    font-size: 10px;
+    font-weight: bolder;
+  }
+  
+  .info-section span {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .movie-card {
+      width: 95%;
+      max-width: 95%;
+      margin: 1em;
+      display: block;
+    }
+  
+    .container {
+      padding: 0;
+      margin: 0;
+    }
+}

@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.header{
+    background: rgba(0, 0, 0, 0.829);
+    z-index: 5;
+    position: relative;
+    height: 60px;
+    &__content{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    &__contactLeft{
+        
+        img{
+            object-fit: cover;
+            height: 60px;
+        }
+    }
+
+    &__contactRight{
+        width: 45%;
+        height: 100%;
+        i{
+            color: white;
+            padding: 5px;
+            padding-top: 10px;
+        }
+        p{
+            text-align: center;
+            padding: 5%;
+        }
+        ul{
+            height: 60px;
+            
+            li{
+                list-style: none;
+                display: inline;
+                color: white;
+                padding: 20px;
+                font-size: 25px;
+
+            }
+        }
+
+    }
+}
+
+
+
